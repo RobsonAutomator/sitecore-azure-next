@@ -23,7 +23,8 @@ You can do this manually using this [table](https://kb.sitecore.net/articles/617
 ```powershell
 Import-Module sitecore-automation -MinimumVersion 1.3.0.4
 
-# Return false if some resources are not supported in region
+# returns false if some resources are not supported in region
+# -Verbose will display all not supported resources
 Test-SitecoreAzureRegion -Location 'West Europe' -Verbose
 ```
 
