@@ -1,6 +1,6 @@
 # sitecore-azure-next
 
-@RobsonAutomator learnings from using Sitecore Azure Toolkit to deploy various Sitecore configurations.
+@RobsonAutomator learning using Sitecore Azure Toolkit to deploy various Sitecore configurations.
 
 ## How to login to Azure account in automated and silent way ?
 
