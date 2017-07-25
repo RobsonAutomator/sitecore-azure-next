@@ -2,6 +2,11 @@
 
 @RobsonAutomator learning using Sitecore Azure Toolkit to deploy various Sitecore configurations.
 
+## What not to do with Sitecore Azure Toolkit
+
+1. Please not use 'admin' as yous SQL user becuse deployment will fail.
+2. If you run deployment twice then your Sitecore installation will be destroyed 
+
 ## How to login to Azure account in automated and silent way ?
 
 When you experiment with Sitecore deployment you need to login to your Azure account.
@@ -38,4 +43,7 @@ Only fallowing files can be stored locally on your workstation:
 
 Any other files must be publicly visible on the Internet. If this is not a problem for you stop reading here.
 If you would like to know how to provide secure access to ARM templates and WDPs files read this post http://lets-share.senktas.net/2017/07/sitecore-on-azure-sas-token.html
+
+## Performance issue
+https://kb.sitecore.net/articles/978654
 
