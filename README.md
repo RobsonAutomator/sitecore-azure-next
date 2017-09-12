@@ -19,6 +19,9 @@ Import-Module sitecore-automation -MinimumVersion 1.3.0.4
 # For first time you will be prompt for username and password
 Login-AzureAccountSilent
 ```
+## How to setup Azure storage for Sitecore deployment with ARM templates ?
+If you want to use ARM templates to deploy Sitecore to Azure, you have to use Azure storage account. 
+On blob storage, you should upload ARM templates and WDP packages.
 
 ## How to check if Azure region is compatible with Sitecore deployment?
 
